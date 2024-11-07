@@ -1,0 +1,129 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Rise of AI",
+      "content": "Artificial intelligence is transforming industries and reshaping our world.",
+      "author": "Jane Doe",
+      "createdAt": "2024-11-07T10:00:00Z",
+      "tags": [
+        "technology",
+        "AI",
+        "innovation"
+      ],
+      "likes": 120,
+      "comments": [
+        {
+          "user": "John Smith",
+          "comment": "Great insights on AI!",
+          "createdAt": "2024-11-07T10:15:00Z"
+        },
+        {
+          "user": "Sarah Lee",
+          "comment": "AI is definitely the future.",
+          "createdAt": "2024-11-07T10:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Top Travel Destinations 2024",
+      "content": "Explore the most beautiful places to visit in 2024.",
+      "author": "Michael Green",
+      "createdAt": "2024-11-06T15:30:00Z",
+      "tags": [
+        "travel",
+        "destinations",
+        "adventure"
+      ],
+      "likes": 85,
+      "comments": [
+        {
+          "user": "Emily Chen",
+          "comment": "Can't wait to travel to these places!",
+          "createdAt": "2024-11-06T16:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Healthy Eating Tips",
+      "content": "Learn how to maintain a balanced diet with these tips.",
+      "author": "Alice Brown",
+      "createdAt": "2024-11-05T08:45:00Z",
+      "tags": [
+        "health",
+        "wellness",
+        "nutrition"
+      ],
+      "likes": 200,
+      "comments": []
+    },
+    {
+      "id": "c4f1",
+      "title": "adsads",
+      "content": "asdad"
+    },
+    {
+      "id": "27f2",
+      "title": "adsads",
+      "content": "asdad"
+    },
+    {
+      "id": "5ad2",
+      "title": "adsads",
+      "content": "asdad"
+    },
+    {
+      "id": "ee8a",
+      "title": "adsads",
+      "content": "asdad"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "+1234567890",
+      "role": "admin",
+      "createdAt": "2024-10-15T09:30:00Z",
+      "posts": [
+        1,
+        2
+      ],
+      "friends": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "phone": "+1234567891",
+      "role": "user",
+      "createdAt": "2024-10-16T11:00:00Z",
+      "posts": [
+        3
+      ],
+      "friends": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Carol Martinez",
+      "email": "carol.martinez@example.com",
+      "phone": "+1234567892",
+      "role": "moderator",
+      "createdAt": "2024-10-17T14:20:00Z",
+      "posts": [],
+      "friends": [
+        1,
+        2
+      ]
+    }
+  ]
+}
